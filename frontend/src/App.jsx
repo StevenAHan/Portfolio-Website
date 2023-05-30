@@ -7,6 +7,7 @@ import WorkExperience from './components/WorkExperience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Education from './components/Education';
 
 function App() {
 
@@ -14,9 +15,15 @@ function App() {
     <>
       <Nav />
       <Header />
+      <hr />
       <About />
+      <hr />
+      <Education />
+      <hr />
       <WorkExperience />
+      <hr />
       <Projects />
+      <hr />
       <Contact />
       <Footer />
     </>

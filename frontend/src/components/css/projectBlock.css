@@ -1,0 +1,28 @@
+.proj-container:hover .links-container {
+    opacity: 1;
+}
+
+
+.inner-img {
+    width: 30px;
+    border-radius: 5px;
+    opacity: .5;
+    transition: .5s ease;
+    margin: 2px;
+}
+
+.inner-img:hover {
+    opacity: 1;
+}
+
+.inner-btn {
+    background-color: transparent;
+}
+
+.links-container {
+    position: absolute;
+    right: 2vw;
+    top: 2vh;
+    opacity: 0;
+    transition: .3s ease;
+}

@@ -1,7 +1,7 @@
 const About = () => {
     return (
         <>
-            <h1>About Me:</h1>
+            <h1 className="title">About Me:</h1>
             <p>
                 Hello, I am a dedicated student currently pursuing a Bachelor's degree in Computer Science at NYU. 
                 Throughout my academic journey, I have gained valuable experience and insights by engaging in various internships. 
@@ -26,6 +26,8 @@ const About = () => {
                 I strive to make a meaningful impact in the field of Computer Science and contribute to the development of 
                 innovative solutions.
             </p>
+
+            <h4>Hobbies:</h4>
         </>
     );
 }

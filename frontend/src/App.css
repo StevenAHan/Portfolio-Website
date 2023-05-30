@@ -1,3 +1,64 @@
 * {
   font-family: "Helvetica Neue", HelveticaNeue, "TeX Gyre Heros", TeXGyreHeros, FreeSans, "Nimbus Sans L", "Liberation Sans", Arimo, Helvetica, Arial, sans-serif;;
 }
+
+.title {
+  text-align: center;
+}
+
+.proj-container {
+  background-color: #dfdede;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: .3s ease;
+  position: relative;
+}
+
+.proj-title {
+  text-align: left;
+  display: inline;
+  color: #333;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.proj-years {
+  text-align: right;
+  display: inline;
+  color: #777;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.proj-container p {
+  position: relative;
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 20px;
+}
+
+.proj-container:hover {
+  background-color: #c8c8c8;
+}
+
+.contact-link {
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: color 0.3s ease; /* Adding a transition effect */
+  font-size: 25px;
+}
+
+.contact-link:hover {
+  color: gray;
+}
+
+hr {
+  border-top: 1px solid lightgray;
+}
+
+a {
+  cursor: pointer;
+}
