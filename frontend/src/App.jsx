@@ -8,22 +8,30 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Education from './components/Education';
+import { useRef } from 'react';
 
 function App() {
+  const aboutRef = useRef(null);
+  const educationRef = useRef(null);
+  const workRef = useRef(null);
+  const projRef = useRef(null);
+  const contactRef = useRef(null);
+
+
 
   return (
     <>
-      <Nav />
+      <Nav aboutRef={aboutRef} educationRef={educationRef} workRef={workRef} projRef={projRef} contactRef={contactRef} />
       <Header />
-      <hr />
-      <About />
-      <hr />
+      <div ref={aboutRef}></div>
+      <About  />
+      <hr ref={educationRef}/>
       <Education />
-      <hr />
+      <hr ref={workRef}/>
       <WorkExperience />
-      <hr />
+      <hr ref={projRef}/>
       <Projects />
-      <hr />
+      <hr ref={contactRef}/>
       <Contact />
       <Footer />
     </>

@@ -26,17 +26,29 @@
 .proj-years {
   text-align: right;
   display: inline;
-  color: #777;
-  font-size: 18px;
+  color: hsl(0, 0%, 47%);
+  font-size: 20px;
   margin-bottom: 10px;
+}
+
+
+.proj-loc {
+  text-align: right;
+  color: #777;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-style: italic;
+  position: absolute;
+  right: 5vw;
+  top: 1.75vh;
 }
 
 .proj-container p {
   position: relative;
   color: #555;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
-  border-radius: 20px;
+  border-radius: 17px;
 }
 
 .proj-container:hover {
