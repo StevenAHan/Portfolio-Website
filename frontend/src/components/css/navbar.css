@@ -1,0 +1,32 @@
+.navbar {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+  
+.navbar-left {
+    flex: 1;
+}
+  
+.navbar-right {
+    display: flex;
+}
+  
+.navbar-brand,
+.navbar-link {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.3s ease; /* Adding a transition effect */
+    font-size: 25px;
+}
+
+.navbar-link:hover {
+  color: blue; /* Changing the color to blue on hover */
+}
+  
+.navbar-link {
+    margin-left: 10px;
+}

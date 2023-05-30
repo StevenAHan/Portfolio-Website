@@ -1,0 +1,35 @@
+.Opener {
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+  
+.OpenerCaps {
+    text-align: center;
+    font-size: 50px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* .OpenerContainer {
+    position: relative;
+    top: 12vh;
+    height: 50vh;
+    width: 45vw;
+    left: 50vw;
+} */
+
+.OpenerContainer {
+    position: relative;
+    top: 20vh;
+    padding-bottom: 50vh;
+}
+
+
+.OpenerBackground {
+    position: absolute;
+    width: 50vw;
+    left: 0px;
+}
