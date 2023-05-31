@@ -17,8 +17,6 @@ function App() {
   const projRef = useRef(null);
   const contactRef = useRef(null);
 
-
-
   return (
     <>
       <Nav aboutRef={aboutRef} educationRef={educationRef} workRef={workRef} projRef={projRef} contactRef={contactRef} />
