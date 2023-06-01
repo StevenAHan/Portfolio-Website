@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Education from './components/Education';
+import NYUExpanded from './components/NYUExpanded';
 import { useRef } from 'react';
 
 function App() {
@@ -16,6 +17,10 @@ function App() {
   const workRef = useRef(null);
   const projRef = useRef(null);
   const contactRef = useRef(null);
+  const [expandNYU, setExpandNYU] = useState(false);
+  const toggleNYU = () => {
+    setExpandNYU(prev => !prev);
+  }
 
   return (
     <>
@@ -25,7 +30,7 @@ function App() {
       <div ref={aboutRef}></div>
       <About  />
       <hr ref={educationRef}/>
-      <Education />
+      <Education toggleNYU={toggleNYU}/>
       <hr ref={workRef}/>
       <WorkExperience />
       <hr ref={projRef}/>
@@ -33,6 +38,7 @@ function App() {
       <hr ref={contactRef}/>
       <Contact />
       <Footer />
+      {expandNYU && <NYUExpanded toggleNYU={toggleNYU}/>}
     </>
   );
 }

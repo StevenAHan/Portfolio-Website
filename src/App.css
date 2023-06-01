@@ -117,3 +117,8 @@ a {
   position: absolute;
   z-index: -1;
 } */
+
+.clickable:hover {
+  cursor: pointer;
+  background-color: rgb(255, 210, 210);
+}

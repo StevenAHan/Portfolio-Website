@@ -4,10 +4,11 @@ import ghlogo from "./imgs/githublogo.png";
 import gradlink from "./imgs/gradlink.png";
 
 
-const EducationBlock = ({name, major, location, dates, summary, weblink}) => {
+const EducationBlock = ({name, major, location, dates, summary, weblink, classes, toggleNYU}) => {
+    
     return (
         <>
-            <div className="proj-container">
+            <div className={`proj-container ${classes}`} onClick={toggleNYU}>
                 <h2 className="proj-title">{name} </h2>
                 <h3 className="proj-years">{dates}</h3>
                 <h3 className="proj-loc">{location}</h3>

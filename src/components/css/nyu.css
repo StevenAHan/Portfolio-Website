@@ -1,0 +1,49 @@
+.NYU-container {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 25vw;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 50vw;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+
+.blackoutFocus {
+    left: 25vw;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 50vw;
+    position: fixed;
+    background-color: red;
+    opacity: 1;
+}
+
+.blackout {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    background-color: black;
+    opacity: .5;
+}
+
+.nopad {
+    padding: 0px;
+    margin: 5px;
+}
+
+.no-bullets {
+    list-style: none;
+  }
+
+.left-aligned {
+    text-align: left;
+}
