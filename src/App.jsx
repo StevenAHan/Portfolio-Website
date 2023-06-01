@@ -20,6 +20,7 @@ function App() {
   return (
     <>
       <Nav aboutRef={aboutRef} educationRef={educationRef} workRef={workRef} projRef={projRef} contactRef={contactRef} />
+      <div className="cover"></div>
       <Header />
       <div ref={aboutRef}></div>
       <About  />
