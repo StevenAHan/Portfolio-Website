@@ -27,8 +27,8 @@ function App() {
       <Nav aboutRef={aboutRef} educationRef={educationRef} workRef={workRef} projRef={projRef} contactRef={contactRef} />
       <div className="cover"></div>
       <Header />
-      <div ref={aboutRef}></div>
-      <About  />
+      {/* <div ref={aboutRef}></div>
+      <About  /> */}
       <hr ref={educationRef}/>
       <Education toggleNYU={toggleNYU}/>
       <hr ref={workRef}/>

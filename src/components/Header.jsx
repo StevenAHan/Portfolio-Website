@@ -6,9 +6,8 @@ const Header = () => {
         <>
             {/* <img className="OpenerBackground" src={titleImg} alt="hi" /> */}
             <div className="OpenerContainer">
-                <h1 className="Opener title">Hello!</h1>
-                <h2 className="OpenerCaps title">I am Steven Han, a student at NYU studying for a BS in Computer Science.</h2>
-                <br />
+                <h1 className="Opener title">Hello! I am Steven Han</h1>
+                <h2 className="OpenerCaps title">A student at NYU studying for a BS in Computer Science. I am currently a software engineer intern at Bank of America.</h2>
                 <br />
                 <div className="center-div">
                     <a href="https://github.com/StevenAHan" className="btn-blue-outline mx-1 white-text" target="_blank" rel="noreferrer">Github</a>
