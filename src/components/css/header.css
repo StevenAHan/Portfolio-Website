@@ -33,3 +33,46 @@
     width: 50vw;
     left: 0px;
 }
+
+.btn, .btn-blue, .btn-blue-outline {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    transition: all 0.3s;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  
+  .btn-blue {
+    color: white;
+    background-color: #646464;
+    border: 3px solid #646464;
+  }
+  
+  .btn-dark {
+    color: white;
+    background-color: #181a1b;
+  }
+  
+  .btn-blue-outline {
+    color: #646464;
+    background-color: transparent;
+    border: 3px solid #646464;
+  }
+  
+  .btn-blue:hover {
+    transition: all 0.3s ease;
+    background: #646464;
+    border: 3px solid #646464;
+  }
+  
+  .btn-blue-outline:hover {
+    color: white;
+    background-color: #646464;
+  }
+
+.center-div {
+    justify-content: center;
+    text-align: center;
+}

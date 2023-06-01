@@ -6,7 +6,8 @@ const NYUExpanded = ({toggleNYU}) => {
             <div className="blackout" onClick={toggleNYU}>
             </div>
             <div className="NYU-container">
-                <h1 className="title">New York University</h1>
+                <h2 className="proj-title">New York University</h2>
+                <h3 className="nopad proj-years">September 2021 - Present</h3>
                 <h3 className="nopad">Major: Computer Science (Bachelor of Science)</h3>
                 <h3 className="nopad">Graduation Date (Expected): May 2024</h3>
                 <h3 className="nopad">GPA: 3.945</h3>

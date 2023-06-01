@@ -20,7 +20,7 @@
     text-decoration: none;
     padding: 5px 10px;
     transition: color 0.3s ease; /* Adding a transition effect */
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .navbar-link:hover {
@@ -29,4 +29,8 @@
   
 .navbar-link {
     margin-left: 10px;
+}
+
+.white-text {
+    text-decoration: none;
 }
