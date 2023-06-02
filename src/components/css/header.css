@@ -1,6 +1,6 @@
 .Opener {
     text-align: center;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: bold;
     color: #333;
     margin-bottom: 10px;
@@ -8,7 +8,10 @@
   
 .OpenerCaps {
     text-align: center;
-    font-size: 50px;
+    position: relative;
+    font-size: 30px;
+    width: 50vw;
+    left: 25vw;
     color: #777;
     margin-bottom: 20px;
 }

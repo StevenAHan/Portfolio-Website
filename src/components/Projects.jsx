@@ -8,7 +8,12 @@ const Projects = () => {
             <ProjectBlock title={"Love Letter Game Simulator"} dates={"May 2022 - Present"} 
                 summary={"Created a card game simulator using C++, designed to be played by 2-4 players. The website is built with a ReactJS frontend using a custom Bootstrap theme and a Express with Socket.io backend, enabling multiplayer support. MongoDB is used to store game and user data."}
                 weblink={"https://loveletter.herokuapp.com"}
-                // gitlink={"https://github.com/StevenAHan"}
+                gitlink={"https://github.com/StevenAHan/Love-Letter-Emulator-Public"}
+            />
+
+            <ProjectBlock title={"Invest.me"} dates={"January 2023 - May 2023"} 
+                summary={"Developed with a team of 4 people a customizable stock pricing tool, which uses both quantitative and qualitative data from numerous sources, including company financials, ESG scores, congressional trades, and public sentiment to evaluate S&P 500 companies. Our product utilizes web scraping, data analytics, and a linear regression ML model to predict stock prices Users can personalize results by inputting their own custom data."}
+                gitlink={"https://github.com/StevenAHan/Invest.me"}
             />
 
             <ProjectBlock title={"Steven's Minigames"} dates={"November 2022 - May 2023"} 
