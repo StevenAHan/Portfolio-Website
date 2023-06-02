@@ -8,6 +8,17 @@
   src: url('./components/fonts/Souvenir-Medium.otf');
 }
 
+@font-face {
+  font-family: 'Heavitas';
+  src: url('./components/fonts/Heavitas.ttf');
+}
+
+@font-face {
+  font-family: 'Alfa';
+  src: url('./components/fonts/AlfaSlabOne-Regular.ttf');
+}
+
+
 /* body {
   background-image: url(./components/imgs/background.jpg);
   background-repeat: no-repeat;
@@ -20,7 +31,8 @@ p, h2, h3, a {
 
 .title {
   /* text-align: center; */
-  font-family: "futurab";
+  font-family: 'Alfa';
+  font-weight: 400;
 }
 
 .proj-container {

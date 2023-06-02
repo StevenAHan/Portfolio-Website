@@ -1,7 +1,6 @@
 .Opener {
     text-align: center;
-    font-size: 60px;
-    font-weight: bold;
+    font-size: 50px;
     color: #333;
     margin-bottom: 10px;
 }
@@ -15,14 +14,6 @@
     color: #777;
     margin-bottom: 20px;
 }
-
-/* .OpenerContainer {
-    position: relative;
-    top: 12vh;
-    height: 50vh;
-    width: 45vw;
-    left: 50vw;
-} */
 
 .OpenerContainer {
     position: relative;
