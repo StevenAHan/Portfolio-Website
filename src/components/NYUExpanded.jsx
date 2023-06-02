@@ -12,19 +12,19 @@ const NYUExpanded = ({toggleNYU}) => {
                 <h3 className="nopad">Graduation Date (Expected): May 2024</h3>
                 <h3 className="nopad">GPA: 3.945</h3>
                 <h2>Activities:</h2>
-                <ul className="no-bullets">
-                    <li>Incoming Design and Analysis of Algorithms Course Assistant (September 2023 - Undefined)</li>
-                    <li>NYU Augmented Libraries VIP backend developer (September 2021 - May 2022)</li>
-                    <li>Cyberware Startup cofounder (September 2021 - May 2022)</li>
-                    <li>NYU Rapid Assembly and Design Competitor (September 2021 - January 2022)</li>
-                </ul>
+                <div className="no-bullets">
+                    <p>Incoming Design and Analysis of Algorithms Course Assistant (September 2023 - Undefined)</p>
+                    <p>NYU Augmented Libraries VIP backend developer (September 2021 - May 2022)</p>
+                    <p>Cyberware Startup cofounder (September 2021 - May 2022)</p>
+                    <p>NYU Rapid Assembly and Design Competitor (September 2021 - January 2022)</p>
+                </div>
                 <h2>Awards:</h2>
-                <ul className="no-bullets left-aligned">
-                    <li>2022 - 2023 Dean's List</li>
-                    <li>2021-2022 Dean's List</li>
-                    <li>NYU Tandon Made Competition Winner</li>
-                    <li>NYU Rapid Assembly and Design Competition Finalist</li>
-                </ul>
+                <div className="no-bullets">
+                    <p>2022 - 2023 Dean's List</p>
+                    <p>2021-2022 Dean's List</p>
+                    <p>NYU Tandon Made Competition Winner</p>
+                    <p>NYU Rapid Assembly and Design Competition Finalist</p>
+                </div>
             </div>
         </>
     );

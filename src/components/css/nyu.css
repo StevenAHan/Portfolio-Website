@@ -40,9 +40,10 @@
     margin: 5px;
 }
 
-.no-bullets {
-    list-style: none;
-  }
+.no-bullets p{
+    font-size: 15px;
+    text-align: center;
+}
 
 .left-aligned {
     text-align: left;
