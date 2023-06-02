@@ -18,7 +18,7 @@
   src: url('./components/fonts/AlfaSlabOne-Regular.ttf');
 }
 
-
+/* <a href="https://www.freepik.com/free-photo/white-concrete-wall_4410360.htm#query=simple%20background&position=17&from_view=keyword&track=ais">Image by rawpixel.com</a> on Freepik */
 body {
   background-image: url(./components/imgs/white-concrete-wall.jpg);
   background-size: contain;
@@ -29,7 +29,7 @@ p, h2, h3, a {
 }
 
 .title {
-  /* text-align: center; */
+  text-align: center;
   font-family: 'Alfa';
   font-weight: 300;
 }
@@ -133,3 +133,26 @@ a {
   cursor: pointer;
   background-color: rgb(201, 207, 187);
 }
+
+.attributions p{
+  font-size: 10px;
+}
+
+.attributions {
+  font-size: 10px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-link {
+  margin-right: 6vw;
+  margin-left: 5vw;
+}
+
+/* .footer-container {
+  margin-top: 5vh;
+  height: 20vh;
+} */
