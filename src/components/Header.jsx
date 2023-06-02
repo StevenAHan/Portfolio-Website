@@ -1,5 +1,5 @@
 import "./css/header.css"
-import titleImg from "./imgs/homebackground.jpg";
+import titleImg from "./imgs/white-concrete-wall.jpg";
 
 const Header = () => {
     return (
