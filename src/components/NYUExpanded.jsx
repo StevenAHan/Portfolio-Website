@@ -6,11 +6,13 @@ const NYUExpanded = ({toggleNYU}) => {
             <div className="blackout" onClick={toggleNYU}>
             </div>
             <div className="NYU-container">
-                <h2 className="proj-title">New York University</h2>
+                <h2 className="proj-title">New York University <a className="link-link inner-btn" href="https://www.nyu.edu/" target="_blank" rel="noreferrer">
+                        <i className="fa-solid fa-graduation-cap link-img inner-img"></i>
+                        </a></h2>
                 <h3 className="nopad proj-years">September 2021 - Present</h3>
                 <h3 className="nopad">Major: Computer Science (Bachelor of Science)</h3>
                 <h3 className="nopad">Graduation Date (Expected): May 2024</h3>
-                <h3 className="nopad">GPA: 3.945</h3>
+                <h3 className="nopad">GPA: 3.95 / 4.00</h3>
                 <h2>Activities:</h2>
                 <div className="no-bullets">
                     <p>Incoming Design and Analysis of Algorithms Course Assistant (September 2023 - Undefined)</p>

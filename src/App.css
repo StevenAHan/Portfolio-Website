@@ -117,18 +117,6 @@ a {
   background-color: #555;
 }
 
-/* .cover {
-  width: 99vw;
-  height: 150vh;
-  top: 110vh;
-  left: 0px;
-  background-color: white;
-  color: black;
-  opacity: 1;
-  position: absolute;
-  z-index: -1;
-} */
-
 .clickable:hover {
   cursor: pointer;
   background-color: rgb(201, 207, 187);
@@ -151,8 +139,3 @@ a {
   margin-right: 6vw;
   margin-left: 5vw;
 }
-
-/* .footer-container {
-  margin-top: 5vh;
-  height: 20vh;
-} */

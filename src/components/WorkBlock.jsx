@@ -12,7 +12,9 @@ const WorkBlock = ({name, title, location, dates, summary, weblink}) => {
                 <p>{summary}</p>
                 <div className="links-container">
                     {weblink && <a className="link-link inner-btn" href={weblink} target="_blank" rel="noreferrer">
-                        <img src={worklink} alt="link" className="link-img inner-img"/></a>}
+                        <img src={worklink} alt="link" className="link-img inner-img"/>
+                        
+                        </a>}
                 </div>
             </div>
         </>
