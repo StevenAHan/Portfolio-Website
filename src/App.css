@@ -139,3 +139,12 @@ a {
   margin-right: 6vw;
   margin-left: 5vw;
 }
+
+.no-bullet {
+  list-style: none;
+}
+
+.clickableP:hover {
+  color:#555;
+  cursor: pointer;
+}

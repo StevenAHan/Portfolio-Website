@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Education from './components/Education';
 import NYUExpanded from './components/NYUExpanded';
 import { useRef } from 'react';
+import VolunteerExperience from './components/VolunteerExperience';
 
 function App() {
   const aboutRef = useRef(null);
@@ -17,6 +18,7 @@ function App() {
   const workRef = useRef(null);
   const projRef = useRef(null);
   const contactRef = useRef(null);
+  const volRef = useRef(null);
   const [expandNYU, setExpandNYU] = useState(false);
   const toggleNYU = () => {
     setExpandNYU(prev => !prev);
@@ -35,6 +37,8 @@ function App() {
       <WorkExperience />
       <hr ref={projRef}/>
       <Projects />
+      <hr ref={volRef}/>
+      <VolunteerExperience />
       <hr ref={contactRef}/>
       <Contact />
       <Footer />
