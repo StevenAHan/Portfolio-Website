@@ -148,3 +148,41 @@ a {
   color:#555;
   cursor: pointer;
 }
+
+.skillblock {
+  position: relative;
+  display: inline-block;
+  transition: filter 0.3s ease-in-out;
+}
+
+.skill-img {
+  position: relative;
+  width: 100px; /* Adjust the size of the thumbnail image */
+  height: 100px;
+  transition: filter 0.3s ease-in-out;
+  padding: 30px;
+}
+
+.skill-caption {
+  position: absolute;
+  font-family:"Souvenir";
+  bottom: 0px;
+  left: 20px;
+  width: 100%;
+  padding: 8px;
+  color: white;
+  font-size: 20px;
+  opacity: 0; /* Hide the caption by default */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.skillblock:hover {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5); /* Add a box-shadow on hover */
+  border-radius: 10px;
+  background-color: lightgray;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.skillblock:hover .skill-caption {
+  opacity: 1; /* Show the caption on hover */
+}
