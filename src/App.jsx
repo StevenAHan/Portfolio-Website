@@ -11,7 +11,7 @@ import Education from './components/Education';
 import NYUExpanded from './components/NYUExpanded';
 import { useRef } from 'react';
 import VolunteerExperience from './components/VolunteerExperience';
-import Skills from './components/skills';
+import Skills from './components/Skills';
 
 function App() {
   const aboutRef = useRef(null);
