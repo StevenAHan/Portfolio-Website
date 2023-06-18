@@ -160,7 +160,7 @@ a {
   width: 100px; /* Adjust the size of the thumbnail image */
   height: 100px;
   transition: filter 0.3s ease-in-out;
-  padding: 30px;
+  padding: 40px;
 }
 
 .skill-caption {
@@ -181,6 +181,11 @@ a {
   border-radius: 10px;
   background-color: lightgray;
   transition: background-color 0.3s ease-in-out;
+}
+
+.skillblock:hover .skill-img {
+  scale: 1.2;
+  transition: 0.3s ease-in-out;
 }
 
 .skillblock:hover .skill-caption {

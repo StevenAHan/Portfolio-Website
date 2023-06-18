@@ -13,6 +13,7 @@ import nodejsImg from "./svg/nodejs.svg";
 import reactImg from "./svg/react.svg";
 import flaskImg from "./svg/flask.svg";
 import springImg from "./svg/spring.svg";
+import socketioImg from "./svg/socketio.svg";
 
 const Skills = () => {
   const skillBlocks = [
@@ -28,6 +29,7 @@ const Skills = () => {
     { img: mysqlImg, title: "MySQL" },
     { img: nodejsImg, title: "Node.js" },
     { img: reactImg, title: "React" },
+    { img: socketioImg, title: "Socket.io" },
     { img: flaskImg, title: "Flask" },
     { img: springImg, title: "Spring" },
   ];
