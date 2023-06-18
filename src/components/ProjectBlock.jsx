@@ -12,11 +12,9 @@ const ProjectBlock = ({title, dates, summary, weblink, gitlink}) => {
                 <p>{summary}</p>
                 <div className="links-container">
                     {weblink && <a className="link-link inner-btn" href={weblink} target="_blank" rel="noreferrer">
-                        {/* <img src={link} alt="link" className="link-img inner-img"/> */}
                         <i className="fa-solid fa-link link-img inner-img fa-xl"></i>
                         </a>}
                     {gitlink && <a className="git-link inner-btn" href={gitlink} target="_blank" rel="noreferrer">
-                        {/* <img src={ghlogo} alt="link" className="git-img inner-img"/> */}
                         <i className="fab fa-github link-img inner-img fa-xl"></i>
                         </a>}
                 </div>

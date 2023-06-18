@@ -1,6 +1,6 @@
 import "./css/navbar.css";
 
-const Nav = ({aboutRef, educationRef, workRef, projRef, contactRef}) => {
+const Nav = ({aboutRef, educationRef, workRef, projRef, contactRef, volRef}) => {
     return (
         <>
             <nav className="navbar">
@@ -12,6 +12,7 @@ const Nav = ({aboutRef, educationRef, workRef, projRef, contactRef}) => {
                 <a onClick={() => educationRef.current?.scrollIntoView({behavior: 'smooth'})} className="navbar-link">Education</a>
                 <a onClick={() => workRef.current?.scrollIntoView({behavior: 'smooth'})} className="navbar-link">Work Experience</a>
                 <a onClick={() => projRef.current?.scrollIntoView({behavior: 'smooth'})} className="navbar-link">Projects</a>
+                <a onClick={() => volRef.current?.scrollIntoView({behavior: 'smooth'})} className="navbar-link">Volunteer Experience</a>
                 <a onClick={() => contactRef.current?.scrollIntoView({behavior: 'smooth'})} className="navbar-link">Contact Me</a>
                 </div>
             </nav>
