@@ -35,7 +35,7 @@ const Skills = () => {
     { img: reactImg, title: "React" },
     { img: socketioImg, title: "Socket.io" },
     { img: flaskImg, title: "Flask" },
-    { img: springImg, title: "Spring" },
+    { img: springImg, title: "Spring Boot" },
     { img: unityImg, title: "Unity" },
     { img: githubImg, title: "Github" },
   ];

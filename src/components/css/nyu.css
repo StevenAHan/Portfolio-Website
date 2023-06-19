@@ -48,3 +48,7 @@
 .left-aligned {
     text-align: left;
 }
+
+.subtitle {
+    color: gray;
+  }

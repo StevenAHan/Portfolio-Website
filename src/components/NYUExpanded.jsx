@@ -4,6 +4,8 @@ import "./css/nyu.css";
 const NYUExpanded = ({toggleNYU}) => {
     const [expandCA, setExpandCA] = useState(false);
     const [expandAL, setExpandAL] = useState(false);
+    const [expandCW, setExpandCW] = useState(false);
+    const [expandRAD, setExpandRAD] = useState(false);
 
 
     const toggleExpandCA = () => {
@@ -11,6 +13,12 @@ const NYUExpanded = ({toggleNYU}) => {
     }
     const toggleExpandAL = () => {
         setExpandAL(prev => !prev);
+    }
+    const toggleExpandCW = () => {
+        setExpandCW(prev => !prev);
+    }
+    const toggleExpandRAD = () => {
+        setExpandRAD(prev => !prev);
     }
 
     return (
@@ -29,16 +37,28 @@ const NYUExpanded = ({toggleNYU}) => {
                 <div className="no-bullets">
                     <p onClick={toggleExpandCA} className="clickableP">Incoming Design and Analysis of Algorithms Course Assistant (September 2023 - Undefined)</p>
                     {expandCA && <>
-                        <ul className="no-bullet">
-                            <li></li>
-                        </ul>
+                        <p></p>
                     </>}
                     <p onClick={toggleExpandAL} className="clickableP">NYU Augmented Libraries VIP backend developer (September 2021 - May 2022)</p>
                     {expandAL && <>
-                        <p className="subtext">Worked with NYU-sponsered Credited project to create a mobile application that utilizes AR to enhance students' experience of our school library, Dibner. Worked in the backend subteam using MongoDB and SQLite to manage the backend of the application</p>
+                        <p className="subtitle">Worked with NYU-sponsered credited project to create a mobile application 
+                        that utilizes AR to enhance students' experience of our school library, Dibner. Worked in the backend 
+                        subteam using MongoDB and SQLite to manage the backend of the application</p>
                     </>}
-                    <p>Cyberware Startup cofounder (September 2021 - May 2022)</p>
-                    <p>NYU Rapid Assembly and Design Competitor (September 2021 - January 2022)</p>
+                    <p onClick={toggleExpandCW} className="clickableP">Cyberware Startup cofounder (September 2021 - May 2022)</p>
+                    {expandCW && <>
+                        <p className="subtitle">As a cofounder and lead software developer for the team, I developed and continue to support web-based 
+                            software “Automa” based on Machine Learning to provide a user-friendly avenue for online patient diagnosis 
+                            according to symptom input, leading to a quick and low-cost alternative to physician visit. We won the NYU 
+                            Tandon-made Competition (2021) and received funding of $2000 for our Startup.</p>
+                    </>}
+                    <p onClick={toggleExpandRAD} className="clickableP">NYU Rapid Assembly and Design Competitor (September 2021 - January 2022)</p>
+                    {expandRAD && <>
+                        <p className="subtitle">Our team created a 3-D printed smart helmet to address urban cycling dangers by detecting location 
+                            and direction of obstacles in blind spots as well as bike speed. All information relayed to the biker 
+                            through audio and tactile cues. As the head of programming, I worked on the Arduino code and helped with the
+                            wiring to ensure all components work cohesively.</p>
+                    </>}
                 </div>
                 <h2>Awards:</h2>
                 <div className="no-bullets">
