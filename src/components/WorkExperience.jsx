@@ -21,8 +21,8 @@ const WorkExperience = () => {
             logo={henkel}
             />
 
-            <WorkBlock name={"Augmented Libraries (Vertically Integrated Projects)"} title={"Backend Developer"} dates={"September 2021 - May 2022"} location={"New York, NY"}
-            summary={"As a backend developer for the NYU Augmented Libraries VIP, I helped develop an intuitive and access-friendly IOS/Android-based AR application for NYU's Dibner Library with a team of 20+. I was a part of the backend subteam and established backend databasing infrastructure using MongoDB and SQLite."}
+            <WorkBlock name={"Augmented Libraries (VIP)"} title={"Backend Developer"} dates={"September 2021 - May 2022"} location={"New York, NY"}
+            summary={"As a backend developer for the NYU Augmented Libraries Vertically Integrated Project (VIP), I helped develop an intuitive and access-friendly IOS/Android-based AR application for NYU's Dibner Library with a team of 20+. I was a part of the backend subteam and established backend databasing infrastructure using MongoDB and SQLite."}
             weblink={"https://engineering.nyu.edu/research-innovation/student-research/vertically-integrated-projects/vip-teams/augmented-library"}
             logo={nyu}
             />
