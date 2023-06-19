@@ -7,7 +7,7 @@ const WorkExperience = () => {
             <h1 className="title" id="work-section">Work Experience:</h1>
             
             <WorkBlock name={"Bank Of America"} title={"Software Engineer Intern"} dates={"June 2023 - Present"} location={"Pennington, NJ"}
-            summary={"I work primarily in Java to help manage payment services. I gained experience in Spring Boot and SQL, and worked in a cooperative team environment."}
+            summary={"I worked primarily in Java to help manage payment services relating to Bank of America. I gained experience in Spring Boot and SQL, and worked in a cooperative Agile team environment. I worked in creating documentation, unit testing, and application creation."}
             weblink={"https://www.bankofamerica.com/"}
             />
 

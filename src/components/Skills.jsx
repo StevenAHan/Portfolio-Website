@@ -14,6 +14,9 @@ import reactImg from "./svg/react.svg";
 import flaskImg from "./svg/flask.svg";
 import springImg from "./svg/spring.svg";
 import socketioImg from "./svg/socketio.svg";
+import unityImg from "./svg/unity.svg";
+import kotlinImg from "./svg/kotlin.svg";
+import githubImg from "./svg/github.svg";
 
 const Skills = () => {
   const skillBlocks = [
@@ -25,6 +28,7 @@ const Skills = () => {
     { img: cssImg, title: "CSS" },
     { img: cImg, title: "C" },
     { img: csharpImg, title: "C#" },
+    { img: kotlinImg, title: "Kotlin" },
     { img: mongodbImg, title: "MongoDB" },
     { img: mysqlImg, title: "MySQL" },
     { img: nodejsImg, title: "Node.js" },
@@ -32,6 +36,8 @@ const Skills = () => {
     { img: socketioImg, title: "Socket.io" },
     { img: flaskImg, title: "Flask" },
     { img: springImg, title: "Spring" },
+    { img: unityImg, title: "Unity" },
+    { img: githubImg, title: "Github" },
   ];
 
   return (

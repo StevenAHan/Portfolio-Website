@@ -1,4 +1,5 @@
 import ProjectBlock from "./ProjectBlock";
+import loveletter from "./imgs/loveletter.png";
 
 const Projects = () => {
     return (
@@ -9,6 +10,7 @@ const Projects = () => {
                 summary={"Created a card game simulator using C++, designed to be played by 2-4 players. The website is built with a ReactJS frontend using a custom Bootstrap theme and a Express with Socket.io backend, enabling multiplayer support. MongoDB is used to store game and user data."}
                 weblink={"https://loveletter.herokuapp.com"}
                 gitlink={"https://github.com/StevenAHan/Love-Letter-Emulator-Public"}
+                projImg={loveletter}
             />
 
             <ProjectBlock title={"Invest.me"} dates={"January 2023 - May 2023"} 

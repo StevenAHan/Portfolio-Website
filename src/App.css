@@ -184,10 +184,34 @@ a {
 }
 
 .skillblock:hover .skill-img {
-  scale: 1.2;
+  scale: 1.1;
   transition: 0.3s ease-in-out;
 }
 
 .skillblock:hover .skill-caption {
   opacity: 1; /* Show the caption on hover */
+}
+
+.project-container {
+  width: 40vw;
+}
+
+.proj-link {
+  color: black;
+  text-decoration: none;
+  margin: 10px;
+  transition: color 0.3s ease; /* Adding a transition effect */
+  font-size: 25px;
+}
+
+.proj-link:hover {
+  color: gray;
+}
+
+.projImg {
+  display: inline-block;
+  position: absolute;
+  width: 45vw;
+  left: 45vw;
+  top: 2.5vh;
 }
