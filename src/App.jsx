@@ -12,6 +12,7 @@ import NYUExpanded from './components/NYUExpanded';
 import { useRef } from 'react';
 import VolunteerExperience from './components/VolunteerExperience';
 import Skills from './components/Skills';
+import EBHSExpanded from './components/EBHSExpanded';
 
 function App() {
   const aboutRef = useRef(null);
@@ -22,8 +23,12 @@ function App() {
   const volRef = useRef(null);
   const skillRef = useRef(null);
   const [expandNYU, setExpandNYU] = useState(false);
+  const [expandEBHS, setExpandEBHS] = useState(false);
   const toggleNYU = () => {
     setExpandNYU(prev => !prev);
+  }
+  const toggleEBHS = () => {
+    setExpandEBHS(prev => !prev);
   }
 
   return (
@@ -34,7 +39,7 @@ function App() {
       {/* <div ref={aboutRef}></div>
       <About  /> */}
       <hr ref={educationRef}/>
-      <Education toggleNYU={toggleNYU}/>
+      <Education toggleNYU={toggleNYU} toggleEBHS={toggleEBHS}/>
       <hr ref={workRef}/>
       <WorkExperience />
       <hr ref={projRef}/>
@@ -47,6 +52,7 @@ function App() {
       <Contact />
       <Footer />
       {expandNYU && <NYUExpanded toggleNYU={toggleNYU}/>}
+      {expandEBHS && <EBHSExpanded toggleEd={toggleEBHS}/>}
     </>
   );
 }

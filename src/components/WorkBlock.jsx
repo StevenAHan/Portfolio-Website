@@ -1,6 +1,6 @@
 
 
-const WorkBlock = ({name, title, location, dates, summary, weblink}) => {
+const WorkBlock = ({name, title, location, dates, summary, weblink, logo}) => {
     return (
         <>
             <div className="proj-container">
@@ -11,7 +11,7 @@ const WorkBlock = ({name, title, location, dates, summary, weblink}) => {
                 <p>{summary}</p>
                 <div className="links-container">
                     {weblink && <a className="link-link inner-btn" href={weblink} target="_blank" rel="noreferrer">
-                        <i className="fa-solid fa-briefcase link-img inner-img fa-xl"></i>  
+                        {logo && <img src={logo} alt="nop" className="work-logo"/>}
                         </a>}
                 </div>
             </div>

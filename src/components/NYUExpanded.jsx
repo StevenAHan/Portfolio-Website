@@ -35,10 +35,7 @@ const NYUExpanded = ({toggleNYU}) => {
                     </>}
                     <p onClick={toggleExpandAL} className="clickableP">NYU Augmented Libraries VIP backend developer (September 2021 - May 2022)</p>
                     {expandAL && <>
-                        <ul className="no-bullet">
-                            <li>Worked with NYU-sponsered Credited project to create a mobile application that utilizes AR to enhance students' experience of our school library, Dibner</li>
-                            <li>Worked in the backend subteam using MongoDB and SQLite to manage the backend of the application</li>
-                        </ul>
+                        <p className="subtext">Worked with NYU-sponsered Credited project to create a mobile application that utilizes AR to enhance students' experience of our school library, Dibner. Worked in the backend subteam using MongoDB and SQLite to manage the backend of the application</p>
                     </>}
                     <p>Cyberware Startup cofounder (September 2021 - May 2022)</p>
                     <p>NYU Rapid Assembly and Design Competitor (September 2021 - January 2022)</p>

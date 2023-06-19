@@ -80,6 +80,7 @@ p, h2, h3, a {
 }
 
 .proj-container:hover {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
   background-color: #c8c8c8;
 }
 
@@ -119,6 +120,7 @@ a {
 
 .clickable:hover {
   cursor: pointer;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
   background-color: rgb(201, 207, 187);
 }
 
@@ -151,9 +153,14 @@ a {
 
 .skillblock {
   position: relative;
-  display: inline-block;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   transition: filter 0.3s ease-in-out;
+  text-align: center;
 }
+
 
 .skill-img {
   position: relative;
@@ -214,4 +221,18 @@ a {
   width: 45vw;
   left: 45vw;
   top: 2.5vh;
+}
+
+.work-logo {
+  width: 40px;
+  opacity: .7;
+}
+
+.work-logo:hover {
+  opacity: 1;
+  transition: 0.3s opacity ease;
+}
+
+.subtext {
+  font-size: 8px;
 }

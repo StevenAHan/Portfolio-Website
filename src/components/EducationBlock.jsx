@@ -16,10 +16,10 @@ const EducationBlock = ({name, major, location, dates, summary, weblink, classes
                 <h3>GPA: {gpa}</h3>
                 <p>{summary}</p>
                 <div className="links-container">
-                    {weblink && <a className="link-link inner-btn" href={weblink} target="_blank" rel="noreferrer">
-                        {/* <img src={gradlink} alt="link" className="link-img inner-img"/> */}
+                    {/* {weblink && <a className="link-link inner-btn" href={weblink} target="_blank" rel="noreferrer">
+                        <img src={gradlink} alt="link" className="link-img inner-img"/>
                         <i className="fa-solid fa-graduation-cap link-img inner-img fa-xl"></i>
-                        </a>}
+                        </a>} */}
                 </div>
             </div>
         </>
