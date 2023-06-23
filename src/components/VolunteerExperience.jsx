@@ -12,7 +12,7 @@ const VolunteerExperience = () => {
             />
 
             <VolunteerBlock name={"East Brunswick Huaxia Chinese School"} title={"Lead Volunteer"} dates={"October 2019 - March 2020"} location={"East Brunswick, NJ"}
-            summary={"I performed critical teaching and administrative tasks; organized materials, events and activities; and trained and supervised junior volunteers."}
+            summary={"As a lead volunteer, I performed critical teaching and administrative tasks, such as organizing materials, events and activities, and training and supervising junior volunteers."}
             weblink={"http://www.hxeb.org/"}
             />
 
