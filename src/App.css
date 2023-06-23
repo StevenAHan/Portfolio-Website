@@ -20,8 +20,8 @@
 
 /* <a href="https://www.freepik.com/free-photo/white-concrete-wall_4410360.htm#query=simple%20background&position=17&from_view=keyword&track=ais">Image by rawpixel.com</a> on Freepik */
 body {
-  background-image: url(./components/imgs/white-concrete-wall.jpg);
-  background-size: contain;
+  background-image: url(./components/imgs/back.avif);
+  background-size: 30% auto;
 }
 
 p, h2, h3, a {
@@ -59,7 +59,6 @@ p, h2, h3, a {
   margin-bottom: 10px;
 }
 
-
 .proj-loc {
   text-align: right;
   color: #777;
@@ -70,6 +69,72 @@ p, h2, h3, a {
   right: 5vw;
   top: 1.75vh;
 }
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-link {
+  margin-right: 6vw;
+  margin-left: 5vw;
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: color 0.3s ease; /* Adding a transition effect */
+  font-size: 25px;
+}
+
+.contact-link:hover {
+  color: gray;
+}
+
+@media (max-width: 900px) {
+  .proj-years {
+    text-align: left;
+    display: block;
+    color: hsl(0, 0%, 47%);
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .contact-container {
+    justify-content: center;
+    display: block;
+
+  }
+  
+  .contact-link {
+    margin-right: 6vw;
+    margin-left: 5vw;
+    color: black;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Adding a transition effect */
+    font-size: 25px;
+  }
+  
+  .contact-link:hover {
+    color: gray;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .proj-loc {
+    text-align: left;
+    color: #777;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-style: italic;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+}
+
 
 .proj-container p {
   position: relative;
@@ -82,18 +147,6 @@ p, h2, h3, a {
 .proj-container:hover {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
   background-color: #c8c8c8;
-}
-
-.contact-link {
-  color: black;
-  text-decoration: none;
-  padding: 5px 10px;
-  transition: color 0.3s ease; /* Adding a transition effect */
-  font-size: 25px;
-}
-
-.contact-link:hover {
-  color: gray;
 }
 
 hr {
@@ -132,16 +185,6 @@ a {
   font-size: 10px;
 }
 
-.contact-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.contact-link {
-  margin-right: 6vw;
-  margin-left: 5vw;
-}
-
 .no-bullet {
   list-style: none;
 }
@@ -164,19 +207,20 @@ a {
 
 .skill-img {
   position: relative;
-  width: 100px; /* Adjust the size of the thumbnail image */
+  width: 100px;
   height: 100px;
   transition: filter 0.3s ease-in-out;
-  padding: 40px;
+  padding: 30px;
 }
 
 .skill-caption {
   position: absolute;
   font-family:"Souvenir";
   bottom: 0px;
-  left: 20px;
+  left: 10px;
+  text-align: left;
   width: 100%;
-  padding: 8px;
+  padding: 3px;
   color: white;
   font-size: 20px;
   opacity: 0; /* Hide the caption by default */
@@ -231,4 +275,12 @@ a {
 .work-logo:hover {
   opacity: 1;
   transition: 0.3s opacity ease;
+}
+
+
+.skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }

@@ -34,3 +34,28 @@
 .white-text {
     text-decoration: none;
 }
+
+
+/* Media query for mobile devices */
+@media (max-width: 900px) {
+    .navbar {
+      flex-direction: column; /* Display the navbar items vertically */
+      align-items: center; /* Align items to the start of the navbar */
+    }
+  
+    .navbar-left {
+      flex: none; /* Remove the flex property to make the left section take its natural width */
+      display: none;
+    }
+  
+    .navbar-right {
+      display: block; /* Hide the right section on mobile devices */
+      justify-content: center;
+      flex: none; /* Remove the flex property to make the left section take its natural width */
+    }
+  
+    .navbar-link {
+        display: block; /* Change the display property to block for vertical layout */
+        text-align: center;
+    }
+  }

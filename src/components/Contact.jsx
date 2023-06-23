@@ -1,4 +1,4 @@
-import Resume from "./files/han_steven_resume.pdf";
+import Resume from "./files/resume_steven_han.pdf";
 
 const Contact = () => {
     function onResumeClick() {

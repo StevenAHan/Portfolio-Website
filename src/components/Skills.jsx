@@ -43,9 +43,11 @@ const Skills = () => {
   return (
     <>
       <h1 className="title">Technical Skills</h1>
-      {skillBlocks.map((skill, index) => (
-        <Skillblock key={index} img={skill.img} title={skill.title} />
-      ))}
+      <div className="skill-container">
+        {skillBlocks.map((skill, index) => (
+          <Skillblock key={index} img={skill.img} title={skill.title} />
+        ))}
+      </div>
     </>
   );
 };

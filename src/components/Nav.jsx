@@ -13,7 +13,7 @@ const Nav = ({aboutRef, educationRef, workRef, projRef, contactRef, volRef, skil
                 <a onClick={() => workRef.current?.scrollIntoView({behavior: 'smooth'})} className="navbar-link">Work Experience</a>
                 <a onClick={() => projRef.current?.scrollIntoView({behavior: 'smooth'})} className="navbar-link">Projects</a>
                 <a onClick={() => skillRef.current?.scrollIntoView({behavior: 'smooth'})} className="navbar-link">Technical Skills</a>
-                <a onClick={() => volRef.current?.scrollIntoView({behavior: 'smooth'})} className="navbar-link">Volunteer Experience</a>
+                <a onClick={() => volRef.current?.scrollIntoView({behavior: 'smooth'})} className="navbar-link">Miscellaneous</a>
                 <a onClick={() => contactRef.current?.scrollIntoView({behavior: 'smooth'})} className="navbar-link">Contact Me</a>
                 </div>
             </nav>

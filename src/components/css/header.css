@@ -70,3 +70,22 @@
     justify-content: center;
     text-align: center;
 }
+
+@media (max-width: 900px) {
+  .Opener {
+    text-align: center;
+    font-size: 35px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+    
+  .OpenerCaps {
+      text-align: center;
+      position: relative;
+      font-size: 20px;
+      width: 50vw;
+      left: 25vw;
+      color: #777;
+      margin-bottom: 20px;
+  }
+}
