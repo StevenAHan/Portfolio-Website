@@ -5,7 +5,7 @@ const VolunteerExperience = () => {
     return (
         <>
             <h1 className="title" id="vol-section">Volunteer Experience and Other Activities:</h1>
-            
+
             {/* <VolunteerBlock name={"CyberWare"} title={"Cofounder"} dates={"September 2021 - May 2022"} location={"New York, NY"}
                 summary={``}
             /> */}
@@ -28,7 +28,7 @@ const VolunteerExperience = () => {
             weblink={"http://www.hxeb.org/"}
             />
 
-            <VolunteerBlock name={"East Brunswick Public Library"} title={"Reviewer and Volunteer for EBPL ARC,"} dates={"September 2018 - May 2019"} location={"East Brunswick, NJ"}
+            <VolunteerBlock name={"East Brunswick Public Library"} title={"Reviewer and Volunteer for EBPL ARC"} dates={"September 2018 - May 2019"} location={"East Brunswick, NJ"}
             summary={"I volunteered by reviewing new literature and guiding the library to purchase new books for its collection."}
             weblink={"http://www.ebpl.org/"}
             />
