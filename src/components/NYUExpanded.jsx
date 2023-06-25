@@ -35,24 +35,36 @@ const NYUExpanded = ({toggleNYU}) => {
                 <h3 className="nopad">GPA: 3.95 / 4.00</h3>
                 <h2>Activities:</h2>
                 <div className="no-bullets">
-                    <p onClick={toggleExpandCA} className="clickableP">Incoming Design and Analysis of Algorithms Course Assistant (September 2023 - Undefined)</p>
+                    <p onClick={toggleExpandCA} className="clickableP">Incoming Design and Analysis of Algorithms Course Assistant (September 2023 - Undefined) {
+                    !expandCA ? (<i className="fa-solid fa-caret-down"></i>) : (
+                        <i className="fa-sharp fa-solid fa-caret-up"></i>
+                    )}</p>
                     {expandCA && <>
-                        <p></p>
+                        <p>Incoming Course Assistant for the computer science class, Design and Analysis of Algorithms. I will tutor and teach other students regarding this subject and will also participate in helping the professor.</p>
                     </>}
-                    <p onClick={toggleExpandAL} className="clickableP">NYU Augmented Libraries VIP backend developer (September 2021 - May 2022)</p>
+                    <p onClick={toggleExpandAL} className="clickableP">NYU Augmented Libraries VIP backend developer (September 2021 - May 2022) {
+                    !expandAL ? (<i className="fa-solid fa-caret-down"></i>) : (
+                        <i className="fa-sharp fa-solid fa-caret-up"></i>
+                    )}</p>
                     {expandAL && <>
                         <p className="subtitle">Worked with NYU-sponsered credited project to create a mobile application 
                         that utilizes AR to enhance students' experience of our school library, Dibner. Worked in the backend 
                         subteam using MongoDB and SQLite to manage the backend of the application</p>
                     </>}
-                    <p onClick={toggleExpandCW} className="clickableP">Cyberware Startup cofounder (September 2021 - May 2022)</p>
+                    <p onClick={toggleExpandCW} className="clickableP">Cyberware Startup cofounder (September 2021 - May 2022) {
+                    !expandCW ? (<i className="fa-solid fa-caret-down"></i>) : (
+                        <i className="fa-sharp fa-solid fa-caret-up"></i>
+                    )}</p>
                     {expandCW && <>
                         <p className="subtitle">As a cofounder and lead software developer for the team, I developed and continue to support web-based 
                             software “Automa” based on Machine Learning to provide a user-friendly avenue for online patient diagnosis 
                             according to symptom input, leading to a quick and low-cost alternative to physician visit. We won the NYU 
                             Tandon-made Competition (2021) and received funding of $2000 for our Startup.</p>
                     </>}
-                    <p onClick={toggleExpandRAD} className="clickableP">NYU Rapid Assembly and Design Competitor (September 2021 - January 2022)</p>
+                    <p onClick={toggleExpandRAD} className="clickableP">NYU Rapid Assembly and Design Competitor (September 2021 - January 2022) {
+                    !expandRAD ? (<i className="fa-solid fa-caret-down"></i>) : (
+                        <i className="fa-sharp fa-solid fa-caret-up"></i>
+                    )}</p>
                     {expandRAD && <>
                         <p className="subtitle">Our team created a 3-D printed smart helmet to address urban cycling dangers by detecting location 
                             and direction of obstacles in blind spots as well as bike speed. All information relayed to the biker 
