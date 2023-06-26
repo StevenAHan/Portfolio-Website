@@ -89,51 +89,6 @@ p, h2, h3, a {
   color: gray;
 }
 
-@media (max-width: 900px) {
-  .proj-years {
-    text-align: left;
-    display: block;
-    color: hsl(0, 0%, 47%);
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-
-  .contact-container {
-    justify-content: center;
-    display: block;
-    text-align: center;
-  }
-  
-  .contact-link {
-    width: 60vw;
-    margin-bottom: 2vh;
-    color: black;
-    display: block;
-    text-decoration: none;
-    transition: color 0.3s ease;
-    font-size: 25px;
-    border: 0px;
-  }
-  
-  .contact-link:hover {
-    color: gray;
-  }
-
-}
-
-@media (max-width: 500px) {
-  .proj-loc {
-    text-align: left;
-    color: #777;
-    font-size: 20px;
-    margin-bottom: 10px;
-    font-style: italic;
-    position: relative;
-    left: 0;
-    top: 0;
-  }
-}
-
 
 .proj-container p {
   position: relative;
@@ -282,4 +237,54 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 900px) {
+  .proj-years {
+    text-align: left;
+    display: block;
+    color: hsl(0, 0%, 47%);
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .contact-container {
+    justify-content: center;
+    display: block;
+    text-align: center;
+  }
+  
+  .contact-link {
+    width: 60vw;
+    margin-bottom: 2vh;
+    color: black;
+    display: block;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 25px;
+    border: 0px;
+  }
+  
+  .contact-link:hover {
+    color: gray;
+  }
+
+  .clickableP:hover {
+    color: black;
+    cursor: pointer;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .proj-loc {
+    text-align: left;
+    color: #777;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-style: italic;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
 }

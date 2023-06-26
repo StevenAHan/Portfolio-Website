@@ -11,7 +11,7 @@ const VolunteerExperience = () => {
 
     return (
         <>
-            <h1 className="title clickable" id="vol-section" onClick={toggleExpandVol}>Volunteer Experience and Miscellaneous Activities: {
+            <h1 className="title clickableP" id="vol-section" onClick={toggleExpandVol}>Volunteer Experience and Miscellaneous Activities: {
                     !expandVol ? (<i className="fa-solid fa-caret-down"></i>) : (
                         <i className="fa-sharp fa-solid fa-caret-up"></i>
                     )}</h1>
