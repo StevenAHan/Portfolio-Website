@@ -28,7 +28,7 @@
     left: 0px;
 }
 
-.btn, .btn-blue, .btn-blue-outline {
+.btn, .btn-gray, .btn-gray-outline {
     display: inline-block;
     padding: 0.8rem 1.5rem;
     transition: all 0.3s;
@@ -38,7 +38,7 @@
     font-size: 25px;
   }
   
-  .btn-blue {
+  .btn-gray {
     color: white;
     background-color: #646464;
     border: 3px solid #646464;
@@ -49,19 +49,19 @@
     background-color: #181a1b;
   }
   
-  .btn-blue-outline {
+  .btn-gray-outline {
     color: #646464;
     background-color: transparent;
     border: 3px solid #646464;
   }
   
-  .btn-blue:hover {
+  .btn-gray:hover {
     transition: all 0.3s ease;
     background: #646464;
     border: 3px solid #646464;
   }
   
-  .btn-blue-outline:hover {
+  .btn-gray-outline:hover {
     color: white;
     background-color: #646464;
   }
