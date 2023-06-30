@@ -59,6 +59,15 @@ p, h2, h3, a {
   margin-bottom: 10px;
 }
 
+.skills-used {
+  text-align: left;
+  display: inline;
+  color: #6e6e6e;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
 .proj-loc {
   text-align: right;
   color: #777;
@@ -287,4 +296,18 @@ a {
     left: 0;
     top: 0;
   }
+}
+
+.proj-skill-img {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  bottom: -3px;
+  margin-right: 5px;
+  opacity: .7;
+}
+
+.proj-container:hover .proj-skill-img {
+  opacity: 1;
+  transition: 0.3s opacity ease;
 }
