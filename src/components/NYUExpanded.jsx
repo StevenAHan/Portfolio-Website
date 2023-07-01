@@ -40,7 +40,7 @@ const NYUExpanded = ({toggleNYU}) => {
                         <i className="fa-sharp fa-solid fa-caret-up"></i>
                     )}</p>
                     {expandCA && <>
-                        <p>Incoming Course Assistant for the computer science class, Design and Analysis of Algorithms. I will tutor and teach other students regarding this subject and will also participate in helping the professor.</p>
+                        <p className="subtitle">Incoming Course Assistant for the computer science class, Design and Analysis of Algorithms. I will tutor and teach other students regarding this subject and will also participate in helping the professor.</p>
                     </>}
                     <p onClick={toggleExpandAL} className="clickableP">NYU Augmented Libraries VIP backend developer (September 2021 - May 2022) {
                     !expandAL ? (<i className="fa-solid fa-caret-down"></i>) : (
