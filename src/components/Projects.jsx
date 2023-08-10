@@ -6,7 +6,7 @@ const Projects = () => {
         <> 
             <h1 className="title" id="proj-section">Personal Projects:</h1>
 
-            <ProjectBlock title={"Love Letter Game Simulator"} dates={"May 2022 - Present"} 
+            <ProjectBlock title={"Love Letter Game Simulator"} dates={"May 2022 - August 2023"} 
                 summary={`Created a card game simulator designed to be played by 2-4 players. The website enables users to play the 
                 card game, "Love Letter." Users will create an account to track their statistics and play with others by joining their 
                 lobbies. The website features real-time updates for the game and permanently keeps track of the game states, enabling 
