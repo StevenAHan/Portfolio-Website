@@ -6,6 +6,7 @@ const NYUExpanded = ({toggleNYU}) => {
     const [expandAL, setExpandAL] = useState(false);
     const [expandCW, setExpandCW] = useState(false);
     const [expandRAD, setExpandRAD] = useState(false);
+    const [expandDB, setExpandDB] = useState(false);
 
 
     const toggleExpandCA = () => {
@@ -19,6 +20,9 @@ const NYUExpanded = ({toggleNYU}) => {
     }
     const toggleExpandRAD = () => {
         setExpandRAD(prev => !prev);
+    }
+    const toggleExpandDB = () => {
+        setExpandDB(prev => !prev);
     }
 
     return (
@@ -35,12 +39,25 @@ const NYUExpanded = ({toggleNYU}) => {
                 <h3 className="nopad">GPA: 3.95 / 4.00</h3>
                 <h2>Activities:</h2>
                 <div className="no-bullets">
+                    <p onClick={toggleExpandDB} className="clickableP">Incoming Introduction to Databases Course Assistant (September 2023 - Undefined) {
+                    !expandDB ? (<i className="fa-solid fa-caret-down"></i>) : (
+                        <i className="fa-sharp fa-solid fa-caret-up"></i>
+                    )}</p>
+                    {expandDB && <>
+                        <p className="subtitle">Incoming Course Assistant for the computer science class, Introduction to Databases. 
+                        I will tutor and teach other students regarding this subject and will also participate in helping the professor 
+                        organizing classes and labs, and other miscellaneous tasks.
+                        </p>
+                    </>}
                     <p onClick={toggleExpandCA} className="clickableP">Incoming Design and Analysis of Algorithms Course Assistant (September 2023 - Undefined) {
                     !expandCA ? (<i className="fa-solid fa-caret-down"></i>) : (
                         <i className="fa-sharp fa-solid fa-caret-up"></i>
                     )}</p>
                     {expandCA && <>
-                        <p className="subtitle">Incoming Course Assistant for the computer science class, Design and Analysis of Algorithms. I will tutor and teach other students regarding this subject and will also participate in helping the professor.</p>
+                        <p className="subtitle">Incoming Course Assistant for the computer science class, Design and Analysis of Algorithms. 
+                        I will tutor and teach other students regarding this subject and will also participate in helping the professor with grading, 
+                        organizing classes and labs, and other miscellaneous tasks.
+                        </p>
                     </>}
                     <p onClick={toggleExpandAL} className="clickableP">NYU Augmented Libraries VIP backend developer (September 2021 - May 2022) {
                     !expandAL ? (<i className="fa-solid fa-caret-down"></i>) : (
@@ -74,10 +91,7 @@ const NYUExpanded = ({toggleNYU}) => {
                 </div>
                 <h2>Awards:</h2>
                 <div className="no-bullets">
-                    <p>2022 - 2023 Dean's List</p>
-                    <p>2021-2022 Dean's List</p>
-                    <p>NYU Tandon Made Competition Winner</p>
-                    <p>NYU Rapid Assembly and Design Competition Finalist</p>
+                    <p>Dean's List (2023, 2022) | NYU Tandon Made Competition Winner (2021) | NYU Rapid Assembly and Design Competition Finalist (2021)</p>
                 </div>
             </div>
         </>
