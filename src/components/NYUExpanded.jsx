@@ -2,16 +2,11 @@ import { useState } from "react";
 import "./css/nyu.css";
 
 const NYUExpanded = ({toggleNYU}) => {
-    const [expandCA, setExpandCA] = useState(false);
     const [expandAL, setExpandAL] = useState(false);
     const [expandCW, setExpandCW] = useState(false);
     const [expandRAD, setExpandRAD] = useState(false);
     const [expandDB, setExpandDB] = useState(false);
 
-
-    const toggleExpandCA = () => {
-        setExpandCA(prev => !prev);
-    }
     const toggleExpandAL = () => {
         setExpandAL(prev => !prev);
     }
@@ -46,16 +41,6 @@ const NYUExpanded = ({toggleNYU}) => {
                     {expandDB && <>
                         <p className="subtitle">Incoming Course Assistant for the computer science class, Introduction to Databases. 
                         I will tutor and teach other students regarding this subject and will also participate in helping the professor 
-                        organizing classes and labs, and other miscellaneous tasks.
-                        </p>
-                    </>}
-                    <p onClick={toggleExpandCA} className="clickableP">Incoming Design and Analysis of Algorithms Course Assistant (September 2023 - Undefined) {
-                    !expandCA ? (<i className="fa-solid fa-caret-down"></i>) : (
-                        <i className="fa-sharp fa-solid fa-caret-up"></i>
-                    )}</p>
-                    {expandCA && <>
-                        <p className="subtitle">Incoming Course Assistant for the computer science class, Design and Analysis of Algorithms. 
-                        I will tutor and teach other students regarding this subject and will also participate in helping the professor with grading, 
                         organizing classes and labs, and other miscellaneous tasks.
                         </p>
                     </>}
