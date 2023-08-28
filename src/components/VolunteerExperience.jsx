@@ -24,7 +24,7 @@ const VolunteerExperience = () => {
                     Tandon-made Competition (2021) and received funding of $2000 for our Startup.`}
                 />
 
-                <VolunteerBlock name={"NYU Rapid Assembly and Design"} title={"Head of Programming"} dates={"September 2021 - January 2022"} location={"New York, NY"}
+                <VolunteerBlock name={"NYU Rapid Assembly and Design Competition"} title={"Head of Programming"} dates={"September 2021 - January 2022"} location={"New York, NY"}
                     summary={`Worked in a team of four to create a "smart" helmet for NYU's RAD competition. The smart 
                     helmet was a 3-D printed smart helmet to address urban cycling dangers by detecting location and direction of obstacles 
                     in blind spots as well as bike speed. 
