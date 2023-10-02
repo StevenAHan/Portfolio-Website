@@ -6,6 +6,19 @@ const Projects = () => {
         <> 
             <h1 className="title" id="proj-section">Personal Projects:</h1>
 
+            <ProjectBlock title={"Energy SPECTator"} dates={"Sept 2023"} 
+                summary={`Project was created for the NYU Haqathon, a Hackathon that focuses on utilizing Quantum Computing to 
+                solve a real-world problem relating to sustainability. We created a web application that utilizes quantum algorithms 
+                combined with classical techniques to help push towards the development of sustainable, 
+                renewable energy and reduce carbon emissions. We will be using variational quantum eigensolvers to 
+                greatly increase the efficiency of finding eigenvalues. We will then use these eigenvalues to proboabilistically 
+                find cliques and thus find renewable energy hotspots and cold spots to encourage the redistribution of energy, 
+                as was mentioned as a major issue during NYC Climate Week 2023.`}
+                gitlink={"https://github.com/NickyDCFP/hAQathon_team_tra5h"}
+                skillsUsed={["JS", "Python", "CSS", "React", "Flask", "Qiskit", "Pandas"]}
+                projImg={loveletter}
+            />
+
             <ProjectBlock title={"Love Letter Game Simulator"} dates={"May 2022 - August 2023"} 
                 summary={`Created a card game simulator designed to be played by 2-4 players. The website enables users to play the 
                 card game, "Love Letter." Users will create an account to track their statistics and play with others by joining their 
