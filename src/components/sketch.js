@@ -30,6 +30,7 @@ class Square {
         this.rotation = 0;
         this.rotationSpeed = random(-0.01, 0.01);
         this.color = color(random(255), random(255), random(255), 50);
+        this.size = random(50, 100);
     }
 
     displayAndMove() {
@@ -40,7 +41,7 @@ class Square {
         translate(this.x, this.y);
         rotate(this.rotation);
         this.rotation += this.rotationSpeed;
-        rect(0, 0, 50, 50);
+        rect(0, 0, this.size, this.size);
         pop();
         this.x += this.speed;
         if(this.x > width) {
