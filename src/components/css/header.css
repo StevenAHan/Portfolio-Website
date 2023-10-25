@@ -18,7 +18,8 @@
 .OpenerContainer {
     position: relative;
     top: 10vh;
-    padding-bottom: 50vh;
+    height: 87vh;
+    /* padding-bottom: 27vh; */
 }
 
 

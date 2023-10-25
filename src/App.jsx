@@ -13,6 +13,7 @@ import { useRef } from 'react';
 import VolunteerExperience from './components/VolunteerExperience';
 import Skills from './components/Skills';
 import EBHSExpanded from './components/EBHSExpanded';
+import "./components/css/canvas.css";
 
 function App() {
   const aboutRef = useRef(null);
