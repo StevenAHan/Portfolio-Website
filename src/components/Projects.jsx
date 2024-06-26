@@ -6,8 +6,9 @@ const Projects = () => {
         <> 
             <h1 className="title" id="proj-section">Personal Projects:</h1>
 
+
             <ProjectBlock title={"Energy SPECTator"} dates={"Sept 2023"} 
-                summary={`Project was created for the NYU Haqathon, a Hackathon that focuses on utilizing Quantum Computing to 
+                summary={`This project was created for the NYU Haqathon, a Hackathon that focuses on utilizing Quantum Computing to 
                 solve a real-world problem relating to sustainability. We created a web application that utilizes quantum algorithms 
                 combined with classical techniques to help push towards the development of sustainable, 
                 renewable energy and reduce carbon emissions. We will be using variational quantum eigensolvers to 

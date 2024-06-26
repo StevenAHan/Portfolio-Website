@@ -9,7 +9,7 @@ const WorkExperience = () => {
         <>
             <h1 className="title" id="work-section">Work Experience:</h1>
 
-            <WorkBlock name={"New York University"} title={"Course Assistant for Introduction to Databases"} dates={"Sept 2023 - Present"} location={"New York, NY"}
+            <WorkBlock name={"New York University"} title={"Course Assistant for Introduction to Databases"} dates={"Sept 2023 - May 2024"} location={"New York, NY"}
             summary={`As a Course Assistant, I work with the Professor to help manage his class by helping with grading and preparing 
             class materials. I also tutor students and host office hours to answer questions and help with classwork.`}
             logo={nyu}

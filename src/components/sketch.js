@@ -4,11 +4,10 @@ function setup() {
     let cnv = createCanvas(windowWidth, windowHeight);
     cnv.id('myCanvas');
     // cnv.parent('#OpenerContainer');
-    cnv.style('width', '100%');
+    cnv.style('width', '101%');
     cnv.style('height', '100%');
     cnv.style("margin", '0');
     cnv.style("padding", '0');
-    cnv.style("overflow", 'hidden');
     
     for(let i = 0; i < 40; i++) {
         let temp = new Square(random(-1 * width), random(height));

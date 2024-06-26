@@ -5,12 +5,12 @@ const Education = ({toggleNYU, toggleEBHS}) => {
         <>
             <h1 className="title" id="education-section">Education:</h1>
 
-            <EducationBlock name={"New York University"} major={"Computer Science (BS)"} dates={"September 2021 - Present"} location={"New York, NY"}
-            summary={`Relevant Coursework: Operating Systems, Databases, Applied Internet Technologies, Computer Architecture, 
+            <EducationBlock name={"New York University"} major={"Computer Science (BS)"} dates={"September 2021 - May 2024"} location={"New York, NY"}
+            summary={`Summa Cum Laude | Relevant Coursework: Operating Systems, Databases, Applied Internet Technologies, Computer Architecture, 
             Object Oriented Programming, Design and Analysis of Algorithms, Data Structures and Algorithms, Artificial Intelligence, 
             Discrete Math, Data Analysis, Ethics and Technology`}
             weblink={"https://www.nyu.edu/"} classes={"clickable"} toggleEd={toggleNYU}
-            gpa={"3.945"}
+            gpa={"3.962"}
             />
 
             <EducationBlock name={"East Brunswick High School"} dates={"September 2017 - June 2021"} location={"East Brunswick, NJ"}
