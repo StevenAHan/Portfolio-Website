@@ -9,12 +9,19 @@ const WorkExperience = () => {
         <>
             <h1 className="title" id="work-section">Work Experience:</h1>
 
-            <WorkBlock name={"New York University"} title={"Course Assistant for Introduction to Databases"} dates={"Sept 2023 - May 2024"} location={"New York, NY"}
+            <WorkBlock name={"Bank Of America"} title={"Software Engineer"} dates={"July 2024 - Present"} location={"Pennington, NJ"}
+            summary={`I work primarily in Angular and Java Spring Boot to help create, test, and maintain the retail bill payment services. 
+                So far, I have lead the upgrade of our team's codebase from Springboot 2 to Springboot 3, requiring the upgrade of multiple dozens of jars, Spring, Hibernate, and Java. 
+                Furthermore, I also lead the research on how to best utilize the behavioral driven development testing software Cucumber for internal testing.`}
+            weblink={"https://www.bankofamerica.com/"}
+            logo={bofa}
+            />
+            {/* <WorkBlock name={"New York University"} title={"Course Assistant for Introduction to Databases"} dates={"Sept 2023 - May 2024"} location={"New York, NY"}
             summary={`As a Course Assistant, I work with the Professor to help manage his class by helping with grading and preparing 
             class materials. I also tutor students and host office hours to answer questions and help with classwork.`}
             logo={nyu}
             />
-            
+             */}
             <WorkBlock name={"Bank Of America"} title={"Software Engineer Intern"} dates={"June 2023 - Aug 2023"} location={"Pennington, NJ"}
             summary={`I work primarily in Angular and Java Spring Boot to help create, test, and maintain the retail bill payment services
              for Bank of America. I work in a cooperative Agile team environment utilizing tools like Jira and Bitbucket to create

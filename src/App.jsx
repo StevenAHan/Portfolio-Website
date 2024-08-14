@@ -39,10 +39,10 @@ function App() {
       <Header />
       {/* <div ref={aboutRef}></div>
       <About  /> */}
-      <hr ref={educationRef}/>
-      <Education toggleNYU={toggleNYU} toggleEBHS={toggleEBHS}/>
       <hr ref={workRef}/>
       <WorkExperience />
+      <hr ref={educationRef}/>
+      <Education toggleNYU={toggleNYU} toggleEBHS={toggleEBHS}/>
       <hr ref={projRef}/>
       <Projects />
       <hr ref={skillRef}/>
