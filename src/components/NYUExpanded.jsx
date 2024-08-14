@@ -28,7 +28,7 @@ const NYUExpanded = ({toggleNYU}) => {
                 <h2 className="proj-title">New York University <a className="link-link inner-btn" href="https://www.nyu.edu/" target="_blank" rel="noreferrer">
                         <i className="fa-solid fa-graduation-cap link-img inner-img"></i>
                         </a></h2>
-                <h3 className="nopad proj-years">September 2021 - Present</h3>
+                <h3 className="nopad proj-years">September 2021 - May 2024</h3>
                 <h3 className="nopad">Major: Computer Science (Bachelor of Science)</h3>
                 <h3 className="nopad">Graduation Date (Expected): May 2024</h3>
                 <h3 className="nopad">GPA: 3.95 / 4.00</h3>
