@@ -3,17 +3,16 @@ import titleImg from "./imgs/white-concrete-wall.jpg";
 
 const Header = () => {
     return (
-        <>
-            {/* <img className="OpenerBackground" src={titleImg} alt="hi" /> */}
-            <div className="OpenerContainer">
-                <h1 className="Opener title">Hello! I am Steven Han,</h1>
-                <h2 className="OpenerCaps">a current full time software engineer at Bank of America. I recently graduated Summa Cum Laude from New York University with a Bachelor of Science in Computer Science and a minor in Mathematics.</h2>
-                <br />
-                <div className="center-div">
-                    <a href="https://github.com/StevenAHan" className="btn-gray-outline white-text" target="_blank" rel="noreferrer"><i className="fab fa-github"></i> Github</a>
+        <div className="OpenerContainer">
+            <section className="hero-panel">
+                <p className="eyebrow">Software Engineer III at JP Morgan Chase</p>
+                <h1 className="Opener">Hello! I am Steven Han.</h1>
+                <p className="hero-copy">I build enterprise financial systems, modern web applications, and scalable backend services. My focus is on delivering resilient software and improving workflows for large-scale teams.</p>
+                <div className="hero-actions center-div">
+                    <a href="https://github.com/StevenAHan" className="btn-gray-outline" target="_blank" rel="noreferrer">Github</a>
                 </div>
-            </div>
-        </>
+            </section>
+        </div>
     );
 }
 

@@ -8,7 +8,7 @@ const EducationBlock = ({name, major, location, dates, summary, weblink, classes
     
     return (
         <>
-            <div className={`proj-container ${classes} `} onClick={toggleEd}>
+            <div className={`proj-container ${classes} clickable`} onClick={toggleEd}>
                 <h2 className="proj-title">{name} </h2>
                 <h3 className="proj-years">{dates}</h3>
                 <h3 className="proj-loc">{location}</h3>

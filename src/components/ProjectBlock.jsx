@@ -25,7 +25,7 @@ import githubImg from "./svg/github.svg";
 const ProjectBlock = ({title, dates, summary, weblink, gitlink, skillsUsed}) => {
 
     const skillBlocks = [
-        { img: javascriptImg, title: "Javascript" },
+        { img: javascriptImg, title: "JavaScript" },
         { img: cplusImg, title: "C++" },
         { img: pythonImg, title: "Python" },
         { img: javaImg, title: "Java" },
@@ -42,22 +42,30 @@ const ProjectBlock = ({title, dates, summary, weblink, gitlink, skillsUsed}) => 
         { img: flaskImg, title: "Flask" },
         { img: springImg, title: "Spring Boot" },
         { img: unityImg, title: "Unity" },
-        { img: githubImg, title: "Github" },
+        { img: githubImg, title: "GitHub" },
     ];
+
+    const renderSkill = (skill) => {
+        const matched = skillBlocks.find((skillBlock) => skillBlock.title.toLowerCase() === skill.toLowerCase());
+        if (matched) {
+            return <img key={skill} src={matched.img} alt={matched.title} className="proj-skill-img" />;
+        }
+        return null;
+    };
     
     return (
         <>
             <div className="proj-container">
-                <h2 className="proj-title">{title} </h2>
-                <h3 className="proj-years">{dates}</h3>
-                <br />
-                <h3 className="skills-used">Skills Used: </h3> {skillsUsed && skillsUsed.map((skill) => {
-                    for(let skillBlock of skillBlocks) {
-                        if(skillBlock.title === skill) {
-                            return <img src={skillBlock.img} alt={skillBlock.title} className="proj-skill-img" />
-                        }
-                    }
-                })}
+                <div className="proj-title-row">
+                    <h2 className="proj-title">{title}</h2>
+                    <span className="proj-years">{dates}</span>
+                </div>
+                <div className="skills-used-row">
+                    <span className="skills-used">Skills Used:</span>
+                    <div className="skills-icon-list">
+                        {skillsUsed && skillsUsed.map((skill) => renderSkill(skill))}
+                    </div>
+                </div>
                 <p>{summary}</p>
                 <div className="links-container">
                     {weblink && <a className="link-link inner-btn" href={weblink} target="_blank" rel="noreferrer">

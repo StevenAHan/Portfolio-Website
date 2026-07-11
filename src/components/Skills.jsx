@@ -13,41 +13,60 @@ import nodejsImg from "./svg/nodejs.svg";
 import reactImg from "./svg/react.svg";
 import flaskImg from "./svg/flask.svg";
 import springImg from "./svg/spring.svg";
-import socketioImg from "./svg/socketio.svg";
-import unityImg from "./svg/unity.svg";
-import kotlinImg from "./svg/kotlin.svg";
 import githubImg from "./svg/github.svg";
+import kotlinImg from "./svg/kotlin.svg";
+import arduinoImg from "./svg/arduino.svg";
+import sqlImg from "./svg/sql.svg";
+import angularImg from "./svg/angular.svg";
+import copilotImg from "./svg/copilot.svg";
 
 const Skills = () => {
-  const skillBlocks = [
-    { img: javascriptImg, title: "Javascript" },
-    { img: cplusImg, title: "C++" },
-    { img: pythonImg, title: "Python" },
-    { img: javaImg, title: "Java" },
-    { img: htmlImg, title: "HTML" },
-    { img: cssImg, title: "CSS" },
-    { img: cImg, title: "C" },
-    { img: csharpImg, title: "C#" },
-    { img: kotlinImg, title: "Kotlin" },
-    { img: mongodbImg, title: "MongoDB" },
-    { img: mysqlImg, title: "MySQL" },
-    { img: nodejsImg, title: "Node.js" },
-    { img: reactImg, title: "React" },
-    { img: socketioImg, title: "Socket.io" },
-    { img: flaskImg, title: "Flask" },
-    { img: springImg, title: "Spring Boot" },
-    { img: unityImg, title: "Unity" },
-    { img: githubImg, title: "Github" },
+  const skillGroups = [
+    {
+      title: "Languages",
+      skills: [
+        { img: javaImg, title: "Java" },
+        { img: pythonImg, title: "Python" },
+        { img: javascriptImg, title: "JavaScript" },
+        { img: cplusImg, title: "C++" },
+        { img: sqlImg, title: "SQL" },
+        { img: htmlImg, title: "HTML" },
+        { img: cssImg, title: "CSS" },
+        { img: cImg, title: "C" },
+        { img: csharpImg, title: "C#" },
+        { img: kotlinImg, title: "Kotlin" },
+        { img: arduinoImg, title: "Arduino" },
+      ],
+    },
+    {
+      title: "Programs / Frameworks",
+      skills: [
+        { img: springImg, title: "Spring Boot" },
+        { img: reactImg, title: "React" },
+        { img: nodejsImg, title: "Node.js" },
+        { img: mongodbImg, title: "MongoDB" },
+        { img: githubImg, title: "GitHub" },
+        { img: flaskImg, title: "Flask" },
+        { img: mysqlImg, title: "MySQL" },
+        { img: copilotImg, title: "Copilot" },
+        { img: angularImg, title: "Angular" },
+      ],
+    },
   ];
 
   return (
     <>
       <h1 className="title">Technical Skills</h1>
-      <div className="skill-container">
-        {skillBlocks.map((skill, index) => (
-          <Skillblock key={index} img={skill.img} title={skill.title} />
-        ))}
-      </div>
+      {skillGroups.map((group) => (
+        <section key={group.title} className="skill-group">
+          <h2 className="skill-group-title">{group.title}</h2>
+          <div className="skill-container">
+            {group.skills.map((skill) => (
+              <Skillblock key={skill.title} img={skill.img} title={skill.title} />
+            ))}
+          </div>
+        </section>
+      ))}
     </>
   );
 };

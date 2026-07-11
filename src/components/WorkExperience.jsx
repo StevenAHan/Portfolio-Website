@@ -7,48 +7,42 @@ import nyu from "./svg/nyu.svg";
 const WorkExperience = () => {
     return (
         <>
-            <h1 className="title" id="work-section">Work Experience:</h1>
+            <h1 className="title" id="work-section">Work Experience</h1>
 
-            <WorkBlock name={"Bank Of America"} title={"Software Engineer"} dates={"July 2024 - Present"} location={"Pennington, NJ"}
-            summary={`I work primarily in Angular and Java Spring Boot to help create, test, and maintain the retail bill payment services. 
-                So far, I have lead the upgrade of our team's codebase from Springboot 2 to Springboot 3, requiring the upgrade of multiple dozens of jars, Spring, Hibernate, and Java. 
-                Furthermore, I also lead the research on how to best utilize the behavioral driven development testing software Cucumber for internal testing.`}
-            weblink={"https://www.bankofamerica.com/"}
-            logo={bofa}
+            <WorkBlock name={"JP Morgan Chase"} title={"Software Engineer III"} dates={"August 2024 - Present"} location={"New York, NY"}
+            summary={`At JP Morgan Chase, I design and maintain large-scale financial and risk management systems using React, Spring Boot, and cloud services. I partner with product, operations, and data teams to modernize transaction workflows, build resilient APIs, and deliver measurable performance and reliability improvements for internal applications.`}
+            weblink={"https://www.jpmorganchase.com/"}
             />
-            {/* <WorkBlock name={"New York University"} title={"Course Assistant for Introduction to Databases"} dates={"Sept 2023 - May 2024"} location={"New York, NY"}
-            summary={`As a Course Assistant, I work with the Professor to help manage his class by helping with grading and preparing 
-            class materials. I also tutor students and host office hours to answer questions and help with classwork.`}
-            logo={nyu}
-            />
-             */}
-            <WorkBlock name={"Bank Of America"} title={"Software Engineer Intern"} dates={"June 2023 - Aug 2023"} location={"Pennington, NJ"}
-            summary={`I work primarily in Angular and Java Spring Boot to help create, test, and maintain the retail bill payment services
-             for Bank of America. I work in a cooperative Agile team environment utilizing tools like Jira and Bitbucket to create
-              documentation, test with J-unit testing, and work directly with application creation. During my internship,
-               I helped document APIs for the business, unit tested Java classes, raising the coverage of packages to over 95%,
-                and finally worked to help create a UI based in Angular and Spring Boot that will be used to help test and visualize
-                 our services. Finally, I also partook in Corporate training on Artificial Intelligence and Machine Learning.`}
+
+            <WorkBlock name={"Bank Of America"} location={"Pennington, NJ"}
+            positions={[
+                {
+                    title: "Software Engineer",
+                    dates: "September 2023 - September 2025",
+                    summary: `Owned retail bill payment platform improvements in Angular and Spring Boot. I led a Spring Boot 2 to 3 migration, modernized dependency management, strengthened Cucumber-based automation, and delivered an internal service visualization UI for support teams.`,
+                },
+                {
+                    title: "Software Engineer Intern",
+                    dates: "June 2023 - August 2023",
+                    summary: `Developed end-to-end features for retail bill payments using Angular and Java Spring Boot. I improved test coverage, streamlined deployments, and collaborated with QA and product stakeholders to accelerate delivery.`,
+                },
+            ]}
+            summary={`I supported retail bill payment services in Angular and Java Spring Boot, transitioning from intern to full-time engineer while driving migration, automation, and user-facing support tool improvements.`}
             weblink={"https://www.bankofamerica.com/"}
             logo={bofa}
             />
 
             <WorkBlock name={"Henkel"} title={"Research and Development Intern"} dates={"June 2022 - August 2022"} location={"Bridgewater, NJ"}
-            summary={`I investigated sustainable adhesive alternatives that are biodegradable and compostable with a leading global 
-            company, gaining research skills in a world-class industrial environment. I was in charge of designing, formulating, and 
-            testing products using scientific instruments and proprietary software. I also analyzed and processed data in Henkel's 
-            internal databases.`}
+            summary={`Researched sustainable adhesive formulations and validated biodegradable, compostable alternatives through lab-scale testing and data analysis. I designed experiments, documented results, and supported cross-functional product development with actionable technical insights.`}
             weblink={"https://www.henkel-northamerica.com/"}
             logo={henkel}
             />
-
+{/* 
             <WorkBlock name={"Augmented Libraries (VIP)"} title={"Backend Developer"} dates={"September 2021 - May 2022"} location={"New York, NY"}
-            summary={`As a backend developer for the NYU Augmented Libraries Vertically Integrated Project (VIP), I helped develop 
-            an intuitive and access-friendly IOS/Android-based AR application for NYU's Dibner Library with a team of 20+. I was a 
-            part of the backend subteam and established backend databasing infrastructure using MongoDB and SQLite.`}
+            summary={`Built backend application infrastructure for an AR-enabled NYU library guide, using MongoDB and SQLite to support accessible iOS/Android experiences. I collaborated with a 20+ student research team to connect data services and enhance application reliability.`}
             weblink={"https://engineering.nyu.edu/research-innovation/student-research/vertically-integrated-projects/vip-teams/augmented-library"}
             logo={nyu}
-            />
+            /> */}
         </>
     );
 }
